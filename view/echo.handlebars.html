@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{{path}}</title>
     <!-- Please fix my CSS bugs https://github.com/jkmartindale/echo -->
     <link rel="stylesheet" href="//{{host}}/style.css">
-    <link rel="preload" href="//{{host}}/ArticulatCF-ExtraLight.woff2" as="font" type="font/woff2">
-    <link rel="preload" href="//{{host}}/ArticulatCF-Medium.woff2" as="font" type="font/woff2">
-    <link rel="preload" href="//{{host}}/ArticulatCF-Normal.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="//{{host}}/ArticulatCF-ExtraLight.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="//{{host}}/ArticulatCF-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="//{{host}}/ArticulatCF-Normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <meta name="application-name" content="echo">
     <meta name="author" content="James Martindale">
     <meta name="color-scheme" content="dark">
@@ -29,13 +29,13 @@
   </head>
   <body>
     <header><span class="skewfix">echo</span></header>
-    <div id="path">{{path}}</div>
+    <main>{{path}}</main>
     <footer>
       <p>add anything after <a href="/yes/anything" style="color:#FB5300">https://{{host}}/</a></p>
       <p>
         to update page content and
-        <a href="https://ogp.me/" style="color:#7ba4d8" target="_blank">Open Graph</a> /
-        <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup" style="color:#1DA1F2" target="_blank">Twitter Card</a>
+        <a href="https://ogp.me/" rel="noopener" style="color:#7ba4d8" target="_blank">Open Graph</a> /
+        <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup" rel="noopener" style="color:#1DA1F2" target="_blank">Twitter Card</a>
         metadata
       </p>
     </footer>

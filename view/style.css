@@ -1,4 +1,5 @@
 @font-face {
+    font-display: swap;
     font-family: "Articulat CF Extra Light";
     src: local("Articulat CF Extra Light"),
          url("ArticulatCF-ExtraLight.woff2") format("woff2"),
@@ -9,6 +10,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: "Articulat CF Normal";
     src: local("Articulat CF Normal"),
          url("ArticulatCF-Normal.woff2") format("woff2"),
@@ -19,6 +21,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: "Articulat CF Medium";
     src: local("Articulat CF Medium"),
          url("ArticulatCF-Medium.woff2") format("woff2"),
@@ -27,10 +30,6 @@
          local("Roboto Medium"),
          local("Arial");
 }
-
-/* @media screen and (min-resolution: 300dpi) {
-
-} */
 
 body {
     display: flex;
@@ -42,7 +41,7 @@ body {
     text-align: center;
 }
 
-#path {
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +83,7 @@ p {
 a {
     border-bottom: 1px solid transparent;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition: border-bottom 0.2s ease;
 }
 
 a:hover {

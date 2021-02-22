@@ -7,6 +7,7 @@
     "rewrites": [
         { "source": "/social_image.png", "destination": "view/social_image.png" },
         { "source": "/style.css", "destination": "view/style.css" },
+        { "source": "/robots.txt", "destination": "view/robots.txt" },
         { "source": "/(.+.woff2?)", "destination": "view/fonts/$1" },
         { "source": "/(.*)", "destination": "api/app" }
     ]
