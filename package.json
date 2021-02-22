@@ -1,0 +1,24 @@
+{
+  "name": "echo-url",
+  "version": "1.0.0",
+  "description": "Service that spits out the requested path in Open Graph / Twitter Card metadata",
+  "main": "src/app.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkmartindale/url-echo.git"
+  },
+  "author": "James Martindale",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/jkmartindale/url-echo/issues"
+  },
+  "homepage": "https://github.com/jkmartindale/url-echo#readme",
+  "devDependencies": {
+    "@vercel/node": "^1.9.0",
+    "typescript": "^4.1.5",
+    "vercel": "^21.2.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}

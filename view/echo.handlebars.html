@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{path}}</title>
+    <link rel="stylesheet" href="//{{host}}/style.css">
+    <link rel="preload" href="//{{host}}/ArticulatCF-ExtraLight.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="//{{host}}/ArticulatCF-Medium.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="//{{host}}/ArticulatCF-Normal.woff2" as="font" type="font/woff2">
+    <meta name="application-name" content="echo">
+    <meta name="author" content="James Martindale">
+    <meta name="color-scheme" content="dark">
+    <meta name="description" content="This service spits out the path you access. You accessed the path {{path}}">
+    <meta name="theme-color" content="#FB5300">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="fb:app_id" content="456095685536801">
+    <meta property="og:description" content="You accessed the path {{path}}">
+    <meta property="og:image" content="https://{{host}}/social_image.png">
+    <meta property="og:image:alt" content="A dark background with the text '/social_image.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:width" content="2400">
+    <meta property="og:site_name" content="echo">
+    <meta property="og:title" content="{{path}}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://{{host}}/{{path}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@jkmartindale">
+    <meta name="twitter:image:alt" content="A dark background with the text '/social_image.png">
+  </head>
+  <body>
+    <header><span class="skewfix">echo</span></header>
+    <div id="path">{{path}}</div>
+    <footer>
+      <p>add anything after <a href="/yes/anything" style="color:#FB5300">https://{{host}}/</a></p>
+      <p>
+        to update page content and
+        <a href="https://ogp.me/" style="color:#7ba4d8" target="_blank">Open Graph</a> /
+        <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup" style="color:#1DA1F2" target="_blank">Twitter Card</a>
+        metadata
+      </p>
+    </footer>
+  </body>
+</html>

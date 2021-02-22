@@ -1,0 +1,13 @@
+{
+    "functions": {
+        "api/app.ts": {
+            "includeFiles": "view/**"
+        }
+    },
+    "rewrites": [
+        { "source": "/social_image.png", "destination": "view/social_image.png" },
+        { "source": "/style.css", "destination": "view/style.css" },
+        { "source": "/(.+.woff2?)", "destination": "view/fonts/$1" },
+        { "source": "/(.*)", "destination": "api/app" }
+    ]
+}
