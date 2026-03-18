@@ -14,9 +14,9 @@
   },
   "homepage": "https://github.com/jkmartindale/url-echo#readme",
   "devDependencies": {
-    "@vercel/node": "^5.3.6",
+    "@vercel/node": "^5.6.16",
     "typescript": "^5.8.3",
-    "vercel": "^44.5.0"
+    "vercel": "^50.33.0"
   },
   "dependencies": {
     "handlebars": "^4.7.8"
