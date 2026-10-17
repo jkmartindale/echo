@@ -19,7 +19,7 @@
     "vercel": "^54.14.5"
   },
   "dependencies": {
-    "handlebars": "^4.7.9"
+    "handlebars": "^4.7.10"
   },
   "overrides": {
     "@vercel/fun": {
